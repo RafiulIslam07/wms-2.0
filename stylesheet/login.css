@@ -1,0 +1,125 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(223, 233, 245);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.left-container {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: left;
+}
+h1 {
+  text-align: left;
+  background: linear-gradient(to right, rgb(77, 35, 59), rgb(103, 59, 146));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 80px;
+  opacity: 0.8;
+}
+/* h4 {
+  display: inline-block;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0px 0px 0px rgba(77, 35, 59);
+} */
+
+.horizontal-bar {
+  width: 100px;
+  background-color: black;
+  height: 3px;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.right-container {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.form {
+  display: block;
+}
+
+input,
+select {
+  margin: 3px;
+  margin-bottom: 1px;
+  padding: 9px;
+  border: none;
+  background-color: rgb(223, 233, 245);
+  border-radius: 5px;
+  width: 80%;
+}
+
+.recover-password {
+  display: flex;
+  color: rgb(80, 75, 104);
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.recover-password a {
+  text-decoration: none;
+}
+
+#register-now-anchor {
+  text-decoration: none;
+  color: rgb(255, 99, 71);
+}
+h3 {
+  margin: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+button {
+  align-items: center;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button {
+  padding: 10px;
+  background-color: #e74c3c;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+
+  color: white;
+  font-weight: bold;
+}
+
+#continue-with {
+  margin-bottom: 20px;
+}
+
+.sign-in-option {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: 30px;
+  border: 3px solid gray;
+  padding: 15px;
+  border-radius: 7px;
+}

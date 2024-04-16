@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.inner-container-01 {
+  display: flex;
+}
+.inner-container-01 > img {
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+
+.year-exp-text {
+  display: inline-block;
+
+  align-items: center;
+  height: 100px;
+  background-color: rgb(85, 142, 76);
+  position: relative;
+
+  top: -30px;
+  left: -550px;
+  padding: 5px;
+}
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(236, 221, 94);
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
+
+#para-18 {
+  position: relative;
+
+  color: #ffffff;
+}
+.inner-container-02 {
+  padding: 10px;
+}
+.inner-container-02 > h4 {
+  color: rgb(104, 155, 96);
+}
+.inner-container-02 > h1 {
+  color: rgb(64, 74, 61);
+}
+.inner-container-02 > p {
+  color: rgb(168, 170, 168);
+  font-size: 20px;
+}
+.inner-container-02 > ul {
+  color: rgb(119, 127, 117);
+  font-size: 25px;
+}
+.discover-more {
+  background-color: rgb(245, 237, 169);
+  color: rgb(64, 74, 61);
+  font-weight: bold;
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover-more:hover {
+  background-color: rgb(85, 142, 76);
+  color: #ffffff;
+}
+
+.container-02 {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin: 40px;
+  margin-top: 60px;
+}
+#container-02-para-01 {
+  color: rgb(135, 137, 134);
+}
+.con-02-inner-con-01 > h4 {
+  color: rgb(91, 145, 82);
+}
+.con-02-inner-con-01 > h1 {
+  color: rgb(64, 74, 61);
+}
+
+.con-02-horizontal-bar-01 {
+  width: 400px;
+  height: 7px;
+  background-color: rgb(236, 221, 94);
+  border-radius: 10px;
+}
+.con-02-horizontal-bar-02 {
+  width: 300px;
+  height: 7px;
+  background-color: rgb(236, 221, 94);
+  border-radius: 10px;
+}
+
+.con-02-inner-con-02 {
+  background-color: rgb(236, 221, 94);
+  transform: rotate(5deg);
+  height: 350px;
+}
+
+.con-02-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-5deg);
+}

@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 100px;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+nav ul li:hover {
+  border-radius: 50%;
+  background-color: rgb(241, 202, 75);
+}
+nav ul li a:hover {
+  color: black;
+}
+
+#person-img-txt {
+  width: 100px;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(241, 202, 75);
+}
+
+#person-img-txt img {
+  display: block;
+  position: relative;
+  top: -20px;
+  right: -30px;
+  width: 40px;
+}
+
+#person-img-txt span {
+  display: block; /* Place the text below the image */
+  position: relative;
+  top: -20px;
+  text-align: center;
+  color: black;
+}
+
+.background-img {
+  height: 400px;
+  width: 100%;
+  background-image: url("../Images/contact-us-img.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: aqua;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: cursive;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.waste-home-img,
+.waste-home-img > img {
+  /* background-image: url("../Images\home-02.jpg");
+  background-color: #f0f0f0; */
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: inline-block;
+  width: 400px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 60px;
+  position: absolute;
+  top: 80px;
+  left: 450px;
+}
+
+.pick-up {
+  display: flex;
+  width: 240px;
+  height: 65px;
+  background-color: rgb(236, 221, 94);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+
+.pick-up:hover {
+  background-color: rgb(85, 142, 76);
+  color: white;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  top: -10vh;
+  background-color: rgb(64, 74, 61);
+}
+.inner-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.load-size {
+  display: inline-block;
+}
+.load-size-img img {
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: -50px;
+  background-color: rgb(241, 202, 75);
+}
+.panel-para {
+  display: flex;
+  position: relative;
+  left: 15px;
+  top: -30px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.vertical-line {
+  display: flex;
+  position: relative;
+  top: 20%;
+  height: 60%;
+  width: 2px;
+  background-color: #333;
+}
+#chartContainer {
+  display: block;
+  margin-left: 10vw;
+  margin-bottom: 10vw;
+  width: 80%;
+  height: 50vh;
+}
+/* Pick Up form */
+.home-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pickUp-right-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+  padding: 20px;
+  border: 0.5px solid gray;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+.grid-01 {
+  width: 200px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: rgb(245, 240, 233);
+  border: none;
+}
+.grid-2 {
+  display: grid;
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+}
+.grid-02,
+select {
+  padding-left: 20px;
+  background-color: rgb(245, 240, 233);
+  border: none;
+}
+.grid-3 > button {
+  margin-top: 5px;
+  width: 180px;
+  height: 50px;
+  background-color: rgb(236, 221, 94);
+  border: none;
+}
+.grid-3 > button:hover {
+  background-color: rgb(85, 142, 76);
+}
+
+.pickUp-left-container {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 170px;
+}
+.pickUp-left-container h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(64, 74, 61);
+}
+.pickUp-left-container p {
+  font-size: 20px;
+  font-weight: 400px;
+  color: rgb(241, 202, 75);
+}
+
+/* footer styling */
+
+.footer {
+  background-color: rgb(41, 41, 44);
+  margin-top: 20px;
+  padding: 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 80vw;
+  margin-left: 20vw;
+}
+
+/* Footer content */
+.footer-info,
+.footer-social {
+  width: 50%;
+  color: white;
+}
+
+.footer-info h2,
+.footer-social h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-social ul li a img {
+  width: 30px;
+  height: 30px;
+}
